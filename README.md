@@ -10,3 +10,10 @@ Commands
 - Migrate DB: `bundle exec rake db:migrate`
 - Run server: `rails s`
 - Run tests: `bundle exec rake test:prepare` then `bundle exec guard`
+
+Heroku
+
+- `heroku create`
+- `git push heroku`
+- `heroku run rake db:migrate`
+- `heroku open`

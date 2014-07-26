@@ -6,5 +6,7 @@ by [Michael Hartl](http://michaelhartl.com/).
 
 Commands
 
+- Install: `bundle install --without production`
+- Migrate DB: `bundle exec rake db:migrate`
 - Run server: `rails s`
-- Run tests: `bundle exec guard`
+- Run tests: `bundle exec rake test:prepare` then `bundle exec guard`
